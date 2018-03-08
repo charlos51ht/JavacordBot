@@ -26,7 +26,12 @@
             <artifactId>javacord</artifactId>
             <version>2.0.12-3</version>
             <classifier>shaded</classifier>
-        </dependency>
+             </dependency>
+        <dependency>
+           <groupId>de.btobastian.sdcf4j</groupId>
+         <artifactId>sdcf4j-core</artifactId>
+         <version>%version%</version>
+         </dependency>
         <!-- Emoji Api -->
         <dependency>
             <groupId>com.vdurmont</groupId>
@@ -67,12 +72,12 @@
         <dependency>
             <groupId>de.btobastian.sdcf4j</groupId>
             <artifactId>sdcf4j-core</artifactId>
-            <version>1.0.2</version>
+            <version>1.0.9</version>
         </dependency>
         <dependency>
             <groupId>de.btobastian.sdcf4j</groupId>
             <artifactId>sdcf4j-javacord</artifactId>
-            <version>1.0.2</version>
+            <version>1.0.9</version>
         </dependency>
     </dependencies>
 
